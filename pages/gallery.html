@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery — CreativePulse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo" style="display: flex; flex-direction: column; line-height: 1.1; text-decoration: none;">
+                <span>Creative</span>
+                <span class="logo-accent">Pulse</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </header>
+
+    <main class="page-content container">
+        <!-- Page Header -->
+        <section class="page-header" style="text-align: center; margin-bottom: 3rem;">
+            <span class="badge">Visuals</span>
+            <h1>Media Gallery</h1>
+            <p>Behind the scenes photography, studio captures, and visual production highlights.</p>
+        </section>
+
+        <!-- Gallery Grid Section -->
+        <section class="gallery-section" style="margin-bottom: 5rem;">
+            <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
+                
+                <!-- Image Item 1 -->
+                <div class="gallery-card" style="border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease;">
+                    <div class="gallery-img-wrapper" style="width: 100%; height: 240px; overflow: hidden; position: relative;">
+                        <img src="../img/pexels-fukajaz.jpg" alt="Video Editing Suite" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);" onmouseover="this.style.transform='scale(1.1) rotate(1deg)'" onmouseout="this.style.transform='scale(1) rotate(0deg)'">
+                    </div>
+                    <div class="gallery-info" style="padding: 1.25rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #2563eb; letter-spacing: 0.05em;">Post-Production</span>
+                        <h3 style="font-size: 1.1rem; margin: 0.25rem 0 0.5rem 0; color: #0f172a;">Video Editing Suite</h3>
+                        <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Behind-the-scenes look at our visual editing process.</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 2 -->
+                <div class="gallery-card" style="border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease;">
+                    <div class="gallery-img-wrapper" style="width: 100%; height: 240px; overflow: hidden; position: relative;">
+                        <img src="../img/pexels-dantemunozphoto.jpg" alt="DSLR Photography" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);" onmouseover="this.style.transform='scale(1.1) rotate(1deg)'" onmouseout="this.style.transform='scale(1) rotate(0deg)'">
+                    </div>
+                    <div class="gallery-info" style="padding: 1.25rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #2563eb; letter-spacing: 0.05em;">Photography</span>
+                        <h3 style="font-size: 1.1rem; margin: 0.25rem 0 0.5rem 0; color: #0f172a;">Studio Lens & Equipment</h3>
+                        <p style="font-size: 0.875rem; color: #64748b; margin: 0;">High-grade DSLR setups for cinematic photography.</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 3 -->
+                <div class="gallery-card" style="border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease;">
+                    <div class="gallery-img-wrapper" style="width: 100%; height: 240px; overflow: hidden; position: relative;">
+                        <img src="../img/pexels-shahbazzaman.jpg" alt="Production Studio" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);" onmouseover="this.style.transform='scale(1.1) rotate(1deg)'" onmouseout="this.style.transform='scale(1) rotate(0deg)'">
+                    </div>
+                    <div class="gallery-info" style="padding: 1.25rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #2563eb; letter-spacing: 0.05em;">Cinematography</span>
+                        <h3 style="font-size: 1.1rem; margin: 0.25rem 0 0.5rem 0; color: #0f172a;">Film & Video Studio</h3>
+                        <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Lighting setup and active video recording stage.</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 4 -->
+                <div class="gallery-card" style="border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease;">
+                    <div class="gallery-img-wrapper" style="width: 100%; height: 240px; overflow: hidden; position: relative;">
+                        <img src="../img/pexels-rickyesquivel.jpg" alt="Production Gear" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);" onmouseover="this.style.transform='scale(1.1) rotate(1deg)'" onmouseout="this.style.transform='scale(1) rotate(0deg)'">
+                    </div>
+                    <div class="gallery-info" style="padding: 1.25rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #2563eb; letter-spacing: 0.05em;">Production Gear</span>
+                        <h3 style="font-size: 1.1rem; margin: 0.25rem 0 0.5rem 0; color: #0f172a;">Professional Camera Rig</h3>
+                        <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Precision optical equipment ready for action.</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 5 -->
+                <div class="gallery-card" style="border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease;">
+                    <div class="gallery-img-wrapper" style="width: 100%; height: 240px; overflow: hidden; position: relative;">
+                        <img src="../img/pexels-skylight-views.jpg" alt="Brand Identity Session" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);" onmouseover="this.style.transform='scale(1.1) rotate(1deg)'" onmouseout="this.style.transform='scale(1) rotate(0deg)'">
+                    </div>
+                    <div class="gallery-info" style="padding: 1.25rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #2563eb; letter-spacing: 0.05em;">Graphic Design</span>
+                        <h3 style="font-size: 1.1rem; margin: 0.25rem 0 0.5rem 0; color: #0f172a;">Brand Identity & Collateral</h3>
+                        <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Custom product branding and packaging design showcase.</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 6 -->
+                <div class="gallery-card" style="border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease;">
+                    <div class="gallery-img-wrapper" style="width: 100%; height: 240px; overflow: hidden; position: relative;">
+                        <img src="../img/pexels-fotios-photos.jpg" alt="Content Creation" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);" onmouseover="this.style.transform='scale(1.1) rotate(1deg)'" onmouseout="this.style.transform='scale(1) rotate(0deg)'">
+                    </div>
+                    <div class="gallery-info" style="padding: 1.25rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #2563eb; letter-spacing: 0.05em;">Digital Content</span>
+                        <h3 style="font-size: 1.1rem; margin: 0.25rem 0 0.5rem 0; color: #0f172a;">Social Media Campaign</h3>
+                        <p style="font-size: 0.875rem; color: #64748b; margin: 0;">High-converting digital collateral and mobile interfaces.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="../index.html" class="logo text-white" style="display: inline-flex; flex-direction: column; line-height: 1.1; text-decoration: none;">
+                    <span>Creative</span>
+                    <span class="logo-accent">Pulse</span>
+                </a>
+                <p>Elevating brands through clean digital design & cinematic multimedia.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="../index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p>hello@creativepulse.com</p>
+                <p>+267 72 343 213</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CreativePulse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

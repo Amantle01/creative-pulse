@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreativePulse — Multimedia & Digital Design Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="display: flex; flex-direction: column; line-height: 1.1; text-decoration: none;">
+                <span>Creative</span>
+                <span class="logo-accent">Pulse</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="pages/about.html" class="nav-link">About Us</a>
+                <a href="pages/services.html" class="nav-link">Services</a>
+                <a href="pages/portfolio.html" class="nav-link">Portfolio</a>
+                <a href="pages/gallery.html" class="nav-link">Gallery</a>
+                <a href="pages/contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <!-- Search Button & Input Form -->
+                <form action="pages/portfolio.html" method="GET" style="display: flex; align-items: center; background: #f1f5f9; border-radius: 8px; padding: 0.35rem 0.75rem; border: 1px solid #e2e8f0;">
+                    <input type="text" name="q" placeholder="Search..." style="border: none; background: transparent; outline: none; font-size: 0.9rem; width: 110px; color: #1e293b; font-family: inherit;">
+                    <button type="submit" style="background: transparent; border: none; cursor: pointer; display: flex; align-items: center; color: #64748b; padding: 0;" aria-label="Search">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    </button>
+                </form>
+                <a href="pages/contact.html" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="badge">WELCOME TO CREATIVE PULSE</span>
+                    <h1>BRINGING YOUR IDEAS TO LIFE</h1>
+                    <p class="hero-description">
+                        We are a modern multimedia and website development company dedicated to delivering creative and high quality innovative digital solutions
+                    </p>
+                    <div class="hero-cta">
+                        <a href="pages/portfolio.html" class="btn btn-dark">View Our Work</a>
+                        <a href="pages/services.html" class="btn btn-outline">Explore Services</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <img src="img/Home 1.png" alt="Video Production Studio">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Cards Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Core Capabilities</h2>
+                    <p>Tailored multimedia solutions crafted with precision and modern elegance.</p>
+                </div>
+                <div class="services-grid">
+                    
+                    <div class="service-card active">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>Website Development</h3>
+                        <p>Responsive, lightning-fast digital storefronts and dynamic platforms built for impact.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.5 7.5"/><circle cx="11" cy="11" r="2"/></svg>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Minimalist logo design, visual systems, and sleek brand identity style guides.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+                        </div>
+                        <h3>Photography</h3>
+                        <p>High-resolution product imagery, editorial portraits, and architectural coverage.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                        </div>
+                        <h3>Video Production</h3>
+                        <p>Cinematic storytelling, commercial promos, and post-production video editing.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </div>
+                        <h3>Digital Content Creation</h3>
+                        <p>Engaging social assets, animated storyboards, and interactive media packages.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Highlight Section -->
+        <section id="about" class="feature-highlight">
+            <div class="container highlight-grid">
+                <div class="highlight-visual">
+                    <img src="img/Home 2.png" alt="Website Development and Digital Media">
+                </div>
+                <div class="highlight-text">
+                    <span class="badge">Why Choose Us</span>
+                    <h2>Your Trusted Multimedia and Website Development Partner</h2>
+                    <p>
+                        We create powerful digital experience through graphic design, photography, web site development and content creation
+                    </p>
+                    <ul class="highlight-list">
+                        <li><span>✓</span> Clean, modern UI/UX design philosophy</li>
+                        <li><span>✓</span> Seamless responsive layouts across all devices</li>
+                        <li><span>✓</span> High-converting visual assets and motion storytelling</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo text-white" style="display: inline-flex; flex-direction: column; line-height: 1.1; text-decoration: none;">
+                    <span>Creative</span>
+                    <span class="logo-accent">Pulse</span>
+                </a>
+                <p>Elevating brands through clean digital design & cinematic multimedia.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="index.html">Home</a>
+                <a href="pages/about.html">About Us</a>
+                <a href="pages/services.html">Services</a>
+                <a href="pages/portfolio.html">Portfolio</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p>hello@creativepulse.com</p>
+                <p>+267 72 343 213</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CreativePulse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
